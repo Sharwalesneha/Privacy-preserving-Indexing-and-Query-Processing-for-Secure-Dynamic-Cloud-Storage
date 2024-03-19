@@ -1,0 +1,99 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Travel</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">				
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>	
+			<header id="header">
+				<div class="header-top">
+					<div class="container">
+			  		<div class="row align-items-center">
+			  			
+			  			
+			  		</div>			  					
+					</div>
+				</div>
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+                                          <b><a  style="font-size:130%; color: yellow;" href="index.html">Privacy-Preserving Indexing And Query Processing</a></b><br> 
+                                          <b> <a style="font-size:130%; color: yellow;" href="index.html"> For Secure Dynamic Cloud Storage</a></b><br>
+				      </div>
+				      <br> 
+                                             <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="UserHome.jsp">BACK</a></li>
+			                  
+	                                  </ul>
+				      </nav>		      		  
+					</div>
+				</div>
+			</header><!-- #header -->
+			  
+			<!-- start banner Area -->
+			<section class="about-banner relative">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+                                                  
+							  <h1 class="text-white">
+								DOWNLOAD FILE				
+                                                        </h1><br>
+                                                             <%    
+  String fileid = request.getParameter("fileid");
+ String privatekey = request.getParameter("privatekey");
+  String aggrigatekey = request.getParameter("aggrigatekey");
+ String filename = request.getParameter("filename");
+       %>
+      
+      <form action='down.jsp?fileid=<%=fileid%>&&filename=<%=filename%>' method='post'>
+          <strong style="color: #4cd3e3;"> ENTER YOUR PRIVATE KEY</strong><br><br>
+      <input type="text" name="prikey" placeholder="enter privatekey"></input><br><BR>
+          <strong style="color: #4cd3e3;">ENTER YOUR AGGREGATE KEY</strong><br><br>
+          <input type="text" name="aggkey" placeholder="enter aggerigatekey"></input><br></br>
+          <input type="submit" value="Download">         
+      </form>
+                                                        
+						</div>	
+					</div>
+				</div>
+                                <br><br><br><BR><BR>                             
+
+			</section>
+			<!-- End banner Area -->	
+
+			
+
+
+			
+				
+		</body>
+	</html>
