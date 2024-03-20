@@ -8,11 +8,9 @@ we introduced a suite of new and novel SSE index designs for processing queries 
 Our index constructions made trade-offs between query efficiency and query privacy, with flexible and comprehensive query functionalities. 
 Through rigorous security analysis under strong security model and extensive experiments on real-world datasets, we demonstrated the effectiveness and practicality of our constructions.
 
-Home Page:
-    ![image](https://github.com/Sharwalesneha/Privacy-preserving-Indexing-and-Query-Processing-for-Secure-Dynamic-Cloud-Storage/assets/163988286/b9ccc577-e441-4b52-b009-ff44015cd450)
+Home Page:![image](https://github.com/Sharwalesneha/Privacy-preserving-Indexing-and-Query-Processing-for-Secure-Dynamic-Cloud-Storage/assets/163988286/b9ccc577-e441-4b52-b009-ff44015cd450)
 
-Data owner registration page:
-    ![image](https://github.com/Sharwalesneha/Privacy-preserving-Indexing-and-Query-Processing-for-Secure-Dynamic-Cloud-Storage/assets/163988286/669a0137-7f11-43e1-8c97-99c68674091b)
+Data owner registration page: ![image](https://github.com/Sharwalesneha/Privacy-preserving-Indexing-and-Query-Processing-for-Secure-Dynamic-Cloud-Storage/assets/163988286/669a0137-7f11-43e1-8c97-99c68674091b)
 
 Data owner login page:
     ![image](https://github.com/Sharwalesneha/Privacy-preserving-Indexing-and-Query-Processing-for-Secure-Dynamic-Cloud-Storage/assets/163988286/b103693c-9509-4a9d-aaf2-a0b40aaaf31e)
